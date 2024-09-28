@@ -19,20 +19,7 @@ public class bai06 {
 			System.out.print("nhập giá trị phần tử: ");
 			arr[i] = scanner.nextInt();
 		}
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
+
 		int check = 0;
 		for (int i = 0; i < arr.length; i++) {
 			for (int j = i + 1; j < arr.length; j++) {

@@ -6,7 +6,7 @@ public class bt1_sanpham {
 String mspString;
 String tenspString;
 String tenhangsxString;
-Date ngaynhapDate;
+int  ngaynhapDate;
 public String getMspString() {
 	return mspString;
 }
@@ -25,18 +25,19 @@ public String getTenhangsxString() {
 public void setTenhangsxString(String tenhangsxString) {
 	this.tenhangsxString = tenhangsxString;
 }
-public Date getNgaynhapDate() {
+public int getNgaynhapDate() {
 	return ngaynhapDate;
 }
-public void setNgaynhapDate(Date ngaynhapDate) {
+public void setNgaynhapDate(int ngaynhapDate) {
 	this.ngaynhapDate = ngaynhapDate;
 }
-public bt1_sanpham(String mspString, String tenspString, String tenhangsxString, Date ngaynhapDate) {
+public bt1_sanpham(String mspString, String tenspString, String tenhangsxString, int ngaynhapDate) {
 	super();
 	this.mspString = mspString;
 	this.tenspString = tenspString;
 	this.tenhangsxString = tenhangsxString;
 	this.ngaynhapDate = ngaynhapDate;
 }
+
 
 }
